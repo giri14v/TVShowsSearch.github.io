@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+*{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.container{
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/* #tvshowsform{
+    margin: auto;
+} */
+#finalResults{
+    /* margin: auto; */
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+}
+.tvshows{
+    width: 18rem;
+    border: 1px solid green;
+    padding: 2rem;
+}
+#finalResults img{
+    margin: auto;
+    padding: 5px;
+    border: 1px solid black;
+}
+@media(max-width: 1002px) {
+    #finalResults{
+        margin: auto;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+}
+@media(max-width: 768px) {
+    #finalResults{
+        margin: auto;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
